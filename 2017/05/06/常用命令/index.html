@@ -1,0 +1,1737 @@
+<!--
+	作者：Sariay
+	时间：2018-09-25
+	描述：There may be a bug, but don't worry, QiLing(器灵) says that it can work normally!
+-->
+<!DOCTYPE html>
+<html class="html-loading">
+		
+
+<head><meta name="generator" content="Hexo 3.9.0">
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
+    
+      常用命令 | Yiwen&#39;s Blog
+    
+  </title>
+  <meta name="author" content="Wang Yiwen">
+  <meta name="keywords" content>
+  <meta name="description" content>
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/Annie.css">
+  
+  <!-- jquery -->
+	<script src="/js/jquery.min.js"></script>
+
+  <!-- leancloud -->
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+<script src="/js/leancloud.js"></script>
+</head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground" data-img-mode="normal" data-normal-src="/img/1.jpg" data-random-max="110" data-random-src="https://sariay.github.io/Random-img/">
+	<div class="mask">
+		<!-- Logo and navigation -->
+		<div class="h-header">
+			<div id="logo">
+				<a href="/">
+					
+						Welcome
+					
+				</a>
+			</div>
+			
+			<div id="navigation-show">
+				<ul>
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home">主页</a>
+		</li>
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive">归档</a>
+		</li>
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories">分类</a>
+		</li>
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags">标签</a>
+		</li>
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about">关于</a>
+		</li>
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+			</div>				
+		</div>
+
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<p class="motto"></p>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more"><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+			</a>
+
+			
+				<!-- 
+	This is only a demo, please go to "https://time.is" to set your city time! 
+-->
+<style type="text/css">
+	.header-date {
+		font-size: 1.6rem;
+		color: #fff;
+		position: absolute;
+		bottom: 5px;
+		right: 1rem;
+		writing-mode: horizontal-tb;
+	}	
+	
+	.header-date a {
+		border-bottom: none;
+	}
+
+	@media only screen and (max-width: 768 ) {
+		.header-date {
+			font-size: 1rem;
+		}			
+	}
+</style>
+<div class="header-date">
+	<a href="https://time.is/Beijing" id="time_is_link" rel="nofollow" ></a>
+	<span id="Beijing_z43d"></span>
+</div>
+<script src="//widget.time.is/zh.js"></script>
+<script>
+	time_is_widget.init({
+		Beijing_z43d:{
+			template:"DATE", 
+			date_format:"year年 monthnum月 dnum日"
+		}
+	});
+</script>
+			
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><h1>0.0%</h1></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<p>
+		
+			当前文章&nbsp;:&nbsp;《常用命令》
+		
+	</p>
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<h3>Navigation</h3>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	<div class="nav-body">
+		<ul>
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home">主页</a>
+		</li>
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive">归档</a>
+		</li>
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories">分类</a>
+		</li>
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags">标签</a>
+		</li>
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about">关于</a>
+		</li>
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+	</div>
+	<div class="nav-footer">
+		<ul>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-github"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-weibo"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-pinterest"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-instagram"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-twitter"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<i class="fa fa-rss"></i>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-17
+	描述：
+		插件名称：katelog.min.js
+		插件作者：KELEN
+		插件来源: https://github.com/KELEN/katelog
+-->
+
+	
+		<div class="layout-toc">
+			<div id="layout-toc">
+				<div class="k-catelog-list" id="catelog-list" data-title="文章目录"></div>
+			</div>
+		</div>
+
+		
+		<script src="/plugin/toc/katelog.min.js"></script>
+
+		
+	 
+
+<div class="layout-post">
+	<div id="layout-post">
+	<div class="article-title">
+		<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+		
+	<a href="/2017/05/06/常用命令/" itemprop="url">
+		常用命令
+	</a>
+
+	</div>
+
+	<div class="article-meta">
+		<span>
+			<i class="fa fa-calendar"></i>
+			
+
+
+	发布于
+
+	<a href="/2017/05/06/常用命令/" itemprop="url">
+		<time datetime="2017-05-06T13:38:39.000Z" itemprop="datePublished">
+	  		2017-05-06
+	  </time>
+	</a>
+	&nbsp;
+
+
+
+
+
+			
+
+
+
+
+	更新于
+
+	<a href="/2017/05/06/常用命令/" itemprop="url">
+		<time datetime="2017-05-06T13:38:39.000Z" itemprop="dateUpdated">
+	  		2019-09-16
+	  </time>
+	</a> 
+
+
+
+		</span>
+		<span>
+			<i class="fa fa-tags"></i>
+			
+	
+		<a href="/tags/Linux/" class=" ">
+			Linux
+		</a>
+	
+		
+		</span>
+		
+		
+
+	
+    <span class="leancloud_visitors" id="/2017/05/06/常用命令/_visitors" data-url="/2017/05/06/常用命令/" data-title="常用命令">
+       	<i class="fa fa-eye"></i>
+       	热度
+        <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
+    </span>
+    
+
+
+
+	
+    <span class="leancloud_likes" id="/2017/05/06/常用命令/_likes" data-url="/2017/05/06/常用命令/" data-title="常用命令" rel="unlike">
+        <i class="fa fa-heart"></i>
+        喜欢
+        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
+    </span>
+
+	</div>
+
+	<div class="article-content" id="article-content">
+		<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a><strong>常用命令</strong></h1><h2 id="命令基本格式"><a href="#命令基本格式" class="headerlink" title="命令基本格式"></a><strong>命令基本格式</strong></h2><blockquote>
+<p>[root@localhost~]#</p>
+</blockquote>
+<ul>
+<li>root 当前登录用户，此时为管理员</li>
+<li>localhost 当前计算机的主机名</li>
+<li>~当前所在目录（家目录 超级用户是/root，普通用户是/home/user1）</li>
+<li>#超级用户的提示符</li>
+<li>$普通用户的提示符</li>
+</ul>
+<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a><strong>命令格式</strong></h2><p>命令 [选项] [参数]</p>
+<ul>
+<li>注意：个别命令使用不遵循此格式，当有多个选项时，可以写在一起，简化选项与完整选项<code>-a</code>等于<code>--all</code></li>
+</ul>
+<h2 id="查询目录中的内容：ls"><a href="#查询目录中的内容：ls" class="headerlink" title="查询目录中的内容：ls"></a><strong>查询目录中的内容：<code>ls</code></strong></h2><blockquote>
+<p>ls [选项] [文件或目录]</p>
+</blockquote>
+<p>选项：</p>
+<ul>
+<li><p><code>-a</code> 显示所有文件，包括隐藏文件<br><img src="https://leanote.com/api/file/getImage?fileId=590ecff9ab64416a62004e01" alt></p>
+<ul>
+<li><code>.</code>开头的是隐藏文件（表示一般是系统文件，最好不要修改）</li>
+</ul>
+</li>
+<li><p><code>-l</code> 显示详细文件<br><img src="https://leanote.com/api/file/getImage?fileId=590ecff9ab64416a62004dff" alt></p>
+<ul>
+<li>第一列：权限：-rw-r–r–<ul>
+<li>-文件类型（-文件 d目录 l软连接文件）</li>
+<li>rw-　　　　　r–　　　　　r–</li>
+<li>u所有者　　　g所属组　　　o其他人</li>
+<li>r读　　　　　w写　　　　　x执行</li>
+</ul>
+</li>
+<li>第二列： . CentOS没有官方解释，应该是代表ACL权限</li>
+<li>第三列： 数字1 表示引用计数代表这个文件被调用几次</li>
+<li>第四列：root 所有者</li>
+<li>第五列：root root所在组</li>
+<li>第六列：文件大小（下图中h是human的意思，表示人能看懂的意思，所有显示大小的都支持h）<br><img src="https://leanote.com/api/file/getImage?fileId=590ecff9ab64416a62004e00" alt></li>
+<li>第七列：5月 3 06:26 表示最后一次修改时间</li>
+<li>第八列： anacoda-ks.cfg表示文件名</li>
+</ul>
+</li>
+<li><p><code>-d</code> 显示目录属性</p>
+</li>
+<li><p><code>-h</code> 人性化显示文件大小</p>
+</li>
+<li><p><code>-i</code> inode</p>
+</li>
+</ul>
+<h2 id="文件处理命令"><a href="#文件处理命令" class="headerlink" title="文件处理命令"></a><strong>文件处理命令</strong></h2><h3 id="目录处理命令"><a href="#目录处理命令" class="headerlink" title="目录处理命令"></a><strong>目录处理命令</strong></h3><ul>
+<li>目录也是文件</li>
+<li>目录用来保存文件，目录就是windows中的文件夹<h4 id="建立目录：mkdir"><a href="#建立目录：mkdir" class="headerlink" title="建立目录：mkdir"></a><strong>建立目录：mkdir</strong></h4></li>
+<li>mkdir -p [目录名]<ul>
+<li>p递归创建</li>
+</ul>
+</li>
+<li>命令英文原意：make directories<br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c71" alt></li>
+</ul>
+<h4 id="切换所在目录：cd"><a href="#切换所在目录：cd" class="headerlink" title="切换所在目录：cd"></a><strong>切换所在目录：cd</strong></h4><ul>
+<li>cd [目录]</li>
+<li>命令英文原意：change directory</li>
+<li>简化操作<ul>
+<li>cd ~ 进入当前用户的家目录</li>
+<li>cd </li>
+<li>cd - 进入上次目录</li>
+<li>cd .. 进入上一级目录</li>
+<li>cd . 进入当前目录</li>
+</ul>
+</li>
+<li>相对路径：参照当前所在目录，进行查找<ul>
+<li>如: [root@localhost~]# cd ../usr/local/src/<br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c6f" alt></li>
+</ul>
+</li>
+<li>绝对路径：从根目录开始指定，一级一级递归查找。在任何目录下，都能进入指定位置。<ul>
+<li>如：[root@localhost~]# cd /etc/<br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c74" alt></li>
+</ul>
+</li>
+<li><code>Tab</code>键按两下，显示/下所有目录<br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c70" alt><br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c72" alt></li>
+<li><code>tab</code>支持目录补全也支持命令补全<br><img src="https://leanote.com/api/file/getImage?fileId=590f2e16ab644166f8005c73" alt><h4 id="查询所在目录位置：pwd"><a href="#查询所在目录位置：pwd" class="headerlink" title="查询所在目录位置：pwd"></a><strong>查询所在目录位置：pwd</strong></h4></li>
+<li>pwd 命令英文原意：print working directory</li>
+</ul>
+<h4 id="删除空目录-rmdir-比较少见"><a href="#删除空目录-rmdir-比较少见" class="headerlink" title="删除空目录 rmdir 比较少见"></a><strong>删除空目录 rmdir 比较少见</strong></h4><ul>
+<li>rmdir [目录名]<ul>
+<li>命令英文原意：remove empty directories<h4 id="删除文件或目录-rm"><a href="#删除文件或目录-rm" class="headerlink" title="删除文件或目录 rm"></a><strong>删除文件或目录 rm</strong></h4></li>
+</ul>
+</li>
+<li>rm -rf [文件或目录]<ul>
+<li>命令英文原意：remove</li>
+<li>-r 删除目录</li>
+<li>-f 强制</li>
+</ul>
+</li>
+<li>rm -rf / 这是让linux自杀</li>
+<li>rm -rf 删除文件一定要小心</li>
+</ul>
+<h4 id="复制命令-cp"><a href="#复制命令-cp" class="headerlink" title="复制命令 cp"></a><strong>复制命令 cp</strong></h4><ul>
+<li>cp [选项] [原文件或目录] [目标目录]<ul>
+<li>命令英文原意：copy</li>
+</ul>
+</li>
+<li>选项：<ul>
+<li>-r 复制目录</li>
+<li>-p 连带文件属性复制</li>
+<li>-d 若原文件是链接文件，则复制链接属性</li>
+<li>-a 相当于 -pdr目标文件和原文件一模一样</li>
+</ul>
+</li>
+<li>ll—–&gt;相当于ls -l</li>
+</ul>
+<h4 id="剪切或改名命令：mv"><a href="#剪切或改名命令：mv" class="headerlink" title="剪切或改名命令：mv"></a><strong>剪切或改名命令：mv</strong></h4><ul>
+<li><p>mv [原文件或目录] [目标目录]</p>
+<ul>
+<li>命令英文原意：move</li>
+</ul>
+</li>
+<li><p>如果原文件和目标文件在同一个目录下就是<code>改名</code>，如果原文件和目标目录不在同一目录下就是<code>剪切</code></p>
+<h3 id="常用目录的作用"><a href="#常用目录的作用" class="headerlink" title="常用目录的作用"></a><strong>常用目录的作用</strong></h3></li>
+<li><p>/根目录</p>
+<ul>
+<li>/bin命令保存目录（普通用户就可以去读的命令）</li>
+<li>根目录下的bin和sbin，usr目录下的bin和sbin，这四个目录都是用来保存系统命令的。</li>
+<li>/bin下保存的普通用户都可以执行，但是/sbin只有超级用户才能执行</li>
+</ul>
+</li>
+<li><p>/boot启动目录，启动相关文件</p>
+</li>
+<li><p>/dev设备文件保存目录</p>
+</li>
+<li><p>/etc配置文件保存目录</p>
+</li>
+<li><p>/home普通用户的家目录</p>
+</li>
+<li><p>/lib系统性保存目录，函数库保存位置</p>
+</li>
+<li><p>/mnt系统挂载目录，挂U盘移动硬盘</p>
+</li>
+<li><p>/media挂载目录，挂光盘</p>
+</li>
+<li><p>/mnt /media /misc 外接存储设备盘符</p>
+</li>
+<li><p>/root 超级用户的家目录</p>
+</li>
+<li><p>/tmp 临时目录</p>
+</li>
+<li><p>/sbin 命令保存目录（只有超级用户才能使用的目录）</p>
+</li>
+<li><p>/proc直接写入内存的</p>
+</li>
+<li><p>/sys和/proc不能直接操作，这两个目录保存的是内存的过载点。</p>
+</li>
+<li><p>/usr 系统软件资源目录</p>
+<ul>
+<li>/usr/bin/系统命令(普通用户)</li>
+<li>/usr/sbin/系统命令（超级用户）</li>
+</ul>
+</li>
+<li><p>/var 系统相关文档内容</p>
+</li>
+<li><p>可以在家目录root或home，以及tmp目录下随便放内容</p>
+<h3 id="连接命令"><a href="#连接命令" class="headerlink" title="连接命令"></a><strong>连接命令</strong></h3><h4 id="连接命令-ln"><a href="#连接命令-ln" class="headerlink" title="连接命令 -ln"></a><strong>连接命令 -ln</strong></h4></li>
+<li><p>ln -s [原文件] [目标文件]</p>
+</li>
+<li><p>命令英文原意：link</p>
+</li>
+<li><p>功能描述：生成连接文件</p>
+<ul>
+<li>选项：-s soft 创建软连接</li>
+</ul>
+</li>
+<li><p>硬链接特征：</p>
+<ul>
+<li>拥有相同的i结点和存储block块，可以看做是同一个文件</li>
+<li>可通过i结点识别</li>
+<li>不能<code>跨分区</code></li>
+<li><code>不能针对目录</code>使用</li>
+<li>如果删除一个也可以通过另一个访问</li>
+<li>一个文件的两个不同接入点，也可以理解为一个教室的前后门。</li>
+<li>不建议创建硬链接</li>
+</ul>
+</li>
+<li><p>软连接特征：</p>
+<ul>
+<li>类似Windows快捷方式</li>
+<li>软链接拥有自己的I结点和Block块，但是数据块中只保存原文件的文件名和I节点号，并没有实际的文件数据</li>
+<li>lrwxrwxrwx l 软链接</li>
+<li>修改任意文件，另一个都改变</li>
+<li>删除原文件，软连接不能使用<h2 id="文件搜索命令"><a href="#文件搜索命令" class="headerlink" title="文件搜索命令"></a><strong>文件搜索命令</strong></h2></li>
+</ul>
+</li>
+<li><p>文件搜索命令 locate</p>
+</li>
+<li><p>命令搜索命令 whereis 与 which</p>
+</li>
+<li><p>文件搜索命令 find</p>
+</li>
+<li><p>字符串搜索命令 grep</p>
+</li>
+<li><p>find命令与grep命令的区别</p>
+<h3 id="文件搜索命令-locate"><a href="#文件搜索命令-locate" class="headerlink" title="文件搜索命令 locate"></a><strong>文件搜索命令 locate</strong></h3></li>
+<li><p>locate命令格式</p>
+<ul>
+<li>locate 文件名</li>
+</ul>
+</li>
+<li><p>在后台数据库中按文件名搜索，搜索速度更快</p>
+</li>
+<li><p>/var/lib/mlocate</p>
+<ul>
+<li>#locate命令所搜索的后台数据</li>
+<li>locate不需要遍历整个系统</li>
+</ul>
+</li>
+<li><p>updatedb</p>
+<ul>
+<li>更新数据库<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2a" alt></li>
+</ul>
+</li>
+<li><p>优点：</p>
+<ul>
+<li>快</li>
+</ul>
+</li>
+<li><p>缺点：</p>
+<ul>
+<li>只能按照文件名搜索</li>
+</ul>
+</li>
+<li><p>/etc/updatedb.conf 配置文件<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b29" alt></p>
+</li>
+<li><p>PRUNE_BIND_MOUNTS=”yes”<br><code>#开启搜索限制</code></p>
+</li>
+<li><p>PRUNEFS=<br><code>#搜索时不搜索文件系统</code></p>
+</li>
+<li><p>PRUNENAMES=<br><code>#搜索时，不搜索的文件类型</code></p>
+</li>
+<li><p>PRUNEPATHS=<br><code>#搜索时，不搜索的路径</code></p>
+<h3 id="命令搜索命令whereis与which"><a href="#命令搜索命令whereis与which" class="headerlink" title="命令搜索命令whereis与which"></a><strong>命令搜索命令whereis与which</strong></h3><h4 id="搜索命令的命令whereis"><a href="#搜索命令的命令whereis" class="headerlink" title="搜索命令的命令whereis"></a><strong>搜索命令的命令whereis</strong></h4></li>
+<li><p>whereis和which都是外部命令，cd是内部命令，这两个查找不到cd</p>
+</li>
+<li><p>whereis 命令名</p>
+<ul>
+<li>搜索命令所在路径及帮助文档所在位置</li>
+</ul>
+</li>
+<li><p>选项：</p>
+<ul>
+<li>-b：只查找可执行文件</li>
+<li>-m：只查找帮助文件<h4 id="搜索命令的命令which"><a href="#搜索命令的命令which" class="headerlink" title="搜索命令的命令which"></a><strong>搜索命令的命令which</strong></h4></li>
+</ul>
+</li>
+<li><p>which 命令名</p>
+<ul>
+<li>搜索命令所在路径及别名<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2c" alt><br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2b" alt></li>
+</ul>
+</li>
+<li><p>PATH环境变量</p>
+<ul>
+<li>定义的是系统搜索命令的路径</li>
+<li>[root@localhost~]# echo $PATH</li>
+<li><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b27" alt><h3 id="文件搜索命令find"><a href="#文件搜索命令find" class="headerlink" title="文件搜索命令find"></a><strong>文件搜索命令find</strong></h3></li>
+</ul>
+</li>
+<li><p>功能非常强大</p>
+</li>
+<li><p>find 命令</p>
+</li>
+<li><p>find [搜索范围][搜素条件]</p>
+<ul>
+<li>#搜素文件</li>
+</ul>
+</li>
+<li><p>find / -name install.log</p>
+<ul>
+<li>#避免大范围搜索，会非常消耗系统资源</li>
+<li>#find是在系统当中搜索符合条件的文件名。如果需要匹配，使用通配符匹配，通配符是完全匹配。</li>
+</ul>
+</li>
+<li><p>搜的内容必须一模一样</p>
+</li>
+<li><p>通配符</p>
+<ul>
+<li>*匹配任意内容</li>
+<li>？匹配任意一个单个字符</li>
+<li>[]匹配任意一个中括号内的字符<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2d" alt></li>
+</ul>
+</li>
+<li><p>find /root -iname install.log</p>
+<ul>
+<li>不区分大小写</li>
+</ul>
+</li>
+<li><p>find /root -user root</p>
+<ul>
+<li>按照所有者搜索</li>
+</ul>
+</li>
+<li><p>find /root -nouser</p>
+<ul>
+<li>查找没有所有者的文件</li>
+<li>内核文件可能没有所有者sys</li>
+<li>外来文件，windows中的文件传到U盘，U盘在Linux中没有所有者</li>
+</ul>
+</li>
+<li><p>find /var/log/ -mtime +10</p>
+<ul>
+<li>查找10天前修改的文件<ul>
+<li>-10 10天内修改文件 </li>
+<li>10 10天当前修改的文件</li>
+<li>+10 10天前修改的文件</li>
+<li>atime 文件访问时间</li>
+<li>ctime 改变文件属性</li>
+<li>mtime 修改文件内容<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b24" alt></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>find . -size 25k</p>
+<ul>
+<li>查找文件大小时25kb的文件</li>
+<li>-25k 小于25kb的文件</li>
+<li>25k 等于25kb的文件</li>
+<li>+25k 大于25kb的文件</li>
+<li><code>k</code>要小写<code>M</code>要大写<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b25" alt></li>
+</ul>
+</li>
+<li><p>find . -inum 262422</p>
+<ul>
+<li>查找i结点是262422的文件</li>
+</ul>
+</li>
+<li><p>find /etc -size +20k -a -size -50k</p>
+<ul>
+<li>查找/etc/目录下，大于20kb并且小于50kb的文件</li>
+<li>-a and 逻辑与，两个条件都满足</li>
+<li>-o or 逻辑或，两个条件满足一个即可</li>
+</ul>
+</li>
+<li><p>find /etc -size +20k -a -size -50k -exec ls -lh {} ;</p>
+<ul>
+<li>查找/etc/目录下，大于20kb并且小于50kb的文件，并显示详细信息</li>
+<li>-exec/-ok命令{} ;对搜索结果执行操作。<h3 id="字符串搜索命令grep"><a href="#字符串搜索命令grep" class="headerlink" title="字符串搜索命令grep"></a><strong>字符串搜索命令grep</strong></h3></li>
+</ul>
+</li>
+<li><p>grep [选项] 字符串 文件名</p>
+<ul>
+<li>在文件中匹配符合条件的字符串</li>
+</ul>
+</li>
+<li><p>选项：</p>
+<ul>
+<li>-i 忽略大小写</li>
+<li>-v 排除指定字符串<h3 id="find和grep命令的区别"><a href="#find和grep命令的区别" class="headerlink" title="find和grep命令的区别"></a><strong>find和grep命令的区别</strong></h3></li>
+</ul>
+</li>
+<li><p>find命令：在系统当中搜索符合条件的文件名，如果需要匹配，使用通配符匹配，通配符是完全匹配。</p>
+</li>
+<li><p>grep命令：在文件当中搜索符合条件的字符串，如果需要匹配，使用正则表达式进行匹配，正则表达式是包含匹配</p>
+</li>
+</ul>
+<h2 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h2><h3 id="帮助命令-man"><a href="#帮助命令-man" class="headerlink" title="帮助命令 man"></a>帮助命令 man</h3><ul>
+<li><p>man 命令</p>
+<ul>
+<li>获取指定命令的帮助</li>
+</ul>
+</li>
+<li><p>man ls</p>
+<ul>
+<li>查看ls的帮助</li>
+</ul>
+</li>
+<li><p>man的级别</p>
+<ul>
+<li>1：查看命令的帮助</li>
+<li>2：查看可被内核调用的函数的帮助</li>
+<li>3：查看函数和函数库的帮助</li>
+<li>4：查看特殊文件的帮助(主要是/dev目录下的文件)</li>
+<li>5：查看配置文件的帮助</li>
+<li>6：查看游戏的帮助</li>
+<li>7：查看其它杂项的帮助</li>
+<li>8：查看系统管理员可用命令的帮助</li>
+<li>9：查看和内核有关的帮助</li>
+</ul>
+</li>
+<li><p>man -f命令 相当于 whatis命令</p>
+</li>
+<li><p>举例：</p>
+<ul>
+<li>man -5 passwd </li>
+<li>man -4 null</li>
+<li>man -8 ifconfig<br><img src="https://leanote.com/api/file/getImage?fileId=5910702fab64416a62007b31" alt><br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2e" alt></li>
+</ul>
+</li>
+<li><p>man -k 查看和命令相关的所有帮助 相当于apropos命令<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b2f" alt>（所有和passwd相关的都被打印出来了）</p>
+</li>
+</ul>
+<h3 id="其它帮助"><a href="#其它帮助" class="headerlink" title="其它帮助"></a><strong>其它帮助</strong></h3><h4 id="选项帮助-–help"><a href="#选项帮助-–help" class="headerlink" title="选项帮助 –help"></a><strong>选项帮助 –help</strong></h4><ul>
+<li>命令 –help<ul>
+<li>获取命令选项的帮助</li>
+</ul>
+</li>
+<li>例如：ls –help<h4 id="shell内部命令帮助"><a href="#shell内部命令帮助" class="headerlink" title="shell内部命令帮助"></a><strong>shell内部命令帮助</strong></h4></li>
+<li>shell:linux命令解释器，壳，Linux的一个壳，内核在最中间，操作命令的界面就是shell，把命令传递给内核才能执行，壳把命令翻译成0101..</li>
+<li>例如：<ul>
+<li>whereis ls</li>
+<li>whereis cd<br><img src="https://leanote.com/api/file/getImage?fileId=5910702fab64416a62007b32" alt><h3 id="详细命令帮助info"><a href="#详细命令帮助info" class="headerlink" title="详细命令帮助info"></a><strong>详细命令帮助info</strong></h3></li>
+</ul>
+</li>
+<li>info命令<ul>
+<li>回车：进入子帮助页面</li>
+<li>u：进入上层页面</li>
+<li>n：进入下一个帮助小节</li>
+<li>p：进入上一个帮助小节</li>
+<li>q：退出<h2 id="压缩与解压缩命令"><a href="#压缩与解压缩命令" class="headerlink" title="压缩与解压缩命令"></a><strong>压缩与解压缩命令</strong></h2></li>
+</ul>
+</li>
+<li>常用压缩格式： .zip    .gz   .bz2  </li>
+<li>常用压缩格式：.tar.gz    .tar.bz2<h3 id="zip格式压缩"><a href="#zip格式压缩" class="headerlink" title=".zip格式压缩"></a><strong>.zip格式压缩</strong></h3></li>
+<li>zip 压缩文件名 源文件<ul>
+<li>压缩文件<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b28" alt></li>
+</ul>
+</li>
+<li>zip -r 压缩文件名 源目录<ul>
+<li>压缩目录<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b26" alt><h3 id="zip格式解压缩"><a href="#zip格式解压缩" class="headerlink" title=".zip格式解压缩"></a><strong>.zip格式解压缩</strong></h3></li>
+</ul>
+</li>
+<li>unzip 压缩文件<ul>
+<li>解压缩.zip<br><img src="https://leanote.com/api/file/getImage?fileId=5910702eab64416a62007b30" alt><h3 id="gz格式压缩"><a href="#gz格式压缩" class="headerlink" title=".gz格式压缩"></a><strong>.gz格式压缩</strong></h3></li>
+</ul>
+</li>
+<li>gzip 源文件<ul>
+<li>压缩为.gz格式的压缩文件，源文件会消失</li>
+</ul>
+</li>
+<li>gzip -c 源文件 &gt; 压缩文件<ul>
+<li>压缩为.gz格式，源文件保留</li>
+<li>例如：gzip -c cangls &gt; cangls.gz</li>
+</ul>
+</li>
+<li>gzip -r 目录<ul>
+<li>压缩目录下所有的子文件，但是不能压缩目录<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106f1" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="gz格式解压缩"><a href="#gz格式解压缩" class="headerlink" title=".gz格式解压缩"></a><strong>.gz格式解压缩</strong></h3><ul>
+<li>gzip -d 压缩文件<ul>
+<li>解压缩文件<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106eb" alt></li>
+</ul>
+</li>
+<li>gunzip 压缩文件<ul>
+<li>解压缩文件<br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e6" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106ef" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e4" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="bz2格式压缩"><a href="#bz2格式压缩" class="headerlink" title=".bz2格式压缩"></a><strong>.bz2格式压缩</strong></h3><ul>
+<li><code>不能压缩目录</code></li>
+<li>bzip2 源文件<ul>
+<li>压缩为.bz2格式，不保留源文件</li>
+</ul>
+</li>
+<li>bzip2 -k 源文件<ul>
+<li>压缩之后保留源文件<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106ec" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="bz2格式解压缩"><a href="#bz2格式解压缩" class="headerlink" title=".bz2格式解压缩"></a><strong>.bz2格式解压缩</strong></h3><ul>
+<li>bzip2 -d 压缩文件<ul>
+<li>解压缩。-k保留压缩文件</li>
+</ul>
+</li>
+<li>bunzip2 压缩文件<ul>
+<li>解压缩，-k保留压缩文件<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106ee" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="打包命令tar"><a href="#打包命令tar" class="headerlink" title="打包命令tar"></a><strong>打包命令tar</strong></h3><ul>
+<li>tar -cvf 打包文件名 源文件</li>
+<li>选项：<ul>
+<li>-c：打包</li>
+<li>-v：显示过程</li>
+<li>-f：指定打包后的文件名</li>
+</ul>
+</li>
+<li>例如：<ul>
+<li>tar -cvf longzls.tar longzls<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106ea" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e3" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106f2" alt><h3 id="解打包命令"><a href="#解打包命令" class="headerlink" title="解打包命令"></a><strong>解打包命令</strong></h3></li>
+</ul>
+</li>
+<li>tar -xvf 打包文件名</li>
+<li>选项：<br>-x：解打包</li>
+<li>例如<ul>
+<li>tar -xvf longzls.tar<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106f0" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106e9" alt><h3 id="tar-gz-压缩格式"><a href="#tar-gz-压缩格式" class="headerlink" title=".tar.gz 压缩格式"></a><strong>.tar.gz 压缩格式</strong></h3></li>
+</ul>
+</li>
+<li>其实，.tar.gz格式是先打包为.tar格式，再压缩为.gz格式</li>
+<li>tar -zcvf 压缩名为.tar.gz 源文件</li>
+<li>选项： <ul>
+<li>-z：压缩为.tar.gz格式</li>
+</ul>
+</li>
+<li>tar -zxcf 压缩包名.tar.gz</li>
+<li>选项：<ul>
+<li>-x 解压缩.tar.gz格式</li>
+</ul>
+</li>
+<li>tar -jcvf 压缩包名.tar.bz2 源文件</li>
+<li>选项：<ul>
+<li>-z：压缩为.tar.bz2格式</li>
+</ul>
+</li>
+<li>tar -jxvf 压缩包名.tar.bz2</li>
+<li>选项：<ul>
+<li>-x:解压缩.tar.bz2格式<br><img src="https://leanote.com/api/file/getImage?fileId=591672caab64416a620106e8" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e7" alt></li>
+</ul>
+</li>
+<li>指定解压缩位置<ul>
+<li>tar -jxvf jp.tar.bz2 -C /tmp/</li>
+</ul>
+</li>
+<li>压缩多个文件<ul>
+<li>tar -zcvf /tmp/test.tar.gz jp anaconda-ks.cfg</li>
+</ul>
+</li>
+<li>查看但不解压<ul>
+<li>tar -ztvf test.tar.gz<h2 id="关机重启命令"><a href="#关机重启命令" class="headerlink" title="关机重启命令"></a><strong>关机重启命令</strong></h2><h3 id="shutdown命令"><a href="#shutdown命令" class="headerlink" title="shutdown命令"></a><strong>shutdown命令</strong></h3></li>
+</ul>
+</li>
+<li>shutdown命令</li>
+<li>shutdown [选项] 时间</li>
+<li>选项：<ul>
+<li>-c:取消一个关机命令</li>
+<li>-h:关机</li>
+<li>-r:重启</li>
+</ul>
+</li>
+<li>shutdown命令更安全，关机最好使用shutdown</li>
+<li>服务器对关机和重启要非常注意<h3 id="其他关机命令"><a href="#其他关机命令" class="headerlink" title="其他关机命令"></a><strong>其他关机命令</strong></h3></li>
+<li>halt</li>
+<li>poweroff</li>
+<li>init 0</li>
+<li>这三个都不是很安全。不一定会正确保存。如果用还是用shutdown<h3 id="其他重启命令"><a href="#其他重启命令" class="headerlink" title="其他重启命令"></a><strong>其他重启命令</strong></h3></li>
+<li>reboot<ul>
+<li>相对比较安全</li>
+</ul>
+</li>
+<li>init 6<ul>
+<li>尽量不要用<h3 id="系统运行级别"><a href="#系统运行级别" class="headerlink" title="系统运行级别"></a><strong>系统运行级别</strong></h3></li>
+</ul>
+</li>
+<li>0 关机</li>
+<li>1 单用户</li>
+<li>2 不完全多用户，不含NFS服务</li>
+<li>3 完全多用户</li>
+<li>4 未分配</li>
+<li>5 图形界面</li>
+<li>6 重启</li>
+<li>runlevel 命令<ul>
+<li>系统级别<br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e2" alt><br><img src="https://leanote.com/api/file/getImage?fileId=591672c9ab64416a620106e5" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="退出登录命令"><a href="#退出登录命令" class="headerlink" title="退出登录命令"></a><strong>退出登录命令</strong></h3><ul>
+<li>logout</li>
+<li>应该养成退出登录的习惯</li>
+</ul>
+<h2 id="挂载命令"><a href="#挂载命令" class="headerlink" title="挂载命令"></a><strong>挂载命令</strong></h2><p><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8a" alt></p>
+<ul>
+<li>可以当成分配盘符来理解</li>
+<li>mount<ul>
+<li>查看系统中已经挂载好的设备</li>
+</ul>
+</li>
+<li>mount -a <ul>
+<li>依据配置</li>
+<li>/etc/fstab 自动挂载文件<h3 id="挂载命令格式"><a href="#挂载命令格式" class="headerlink" title="挂载命令格式"></a><strong>挂载命令格式</strong></h3></li>
+</ul>
+</li>
+<li>mount [-t 文件系统] [-o 特殊选项] 设备 文件名 挂载点</li>
+<li>选项：<ul>
+<li>-t：文件系统：加入文件系统类型来指定挂载的类型，可以ext3，ext4，iso9660等文件系统</li>
+<li>-o 特殊选项：可以指定挂载的额外选项<h4 id="特殊选项"><a href="#特殊选项" class="headerlink" title="特殊选项"></a><strong>特殊选项</strong></h4><table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">atime/noatime</td>
+<td align="center">更新访问时间/不更新访问时间。访问分区文件时，是否更新文件的访问时间，默认为更新</td>
+</tr>
+<tr>
+<td align="center">async/sync</td>
+<td align="center">异步/同步，默认为异步</td>
+</tr>
+<tr>
+<td align="center">auto/noauto</td>
+<td align="center">自动/手动，mount -a命令执行时，是否会自动安装/etc/fstab文件内容挂载，默认为自动</td>
+</tr>
+<tr>
+<td align="center">defaults</td>
+<td align="center">定义默认值，相当于rw，suid，dev，exec，auto，nouser，async这七个选项</td>
+</tr>
+<tr>
+<td align="center">exec/noexec</td>
+<td align="center">执行/不执行，设定是否允许在文件系统中执行可执行文件，默认是exec允许</td>
+</tr>
+<tr>
+<td align="center">remount</td>
+<td align="center">重新挂载已经挂载的文件系统，一般用于指定修改特殊权限</td>
+</tr>
+<tr>
+<td align="center">rw/ro</td>
+<td align="center">读写/只读，文件系统挂载时，是否具有读写权限，默认是rw</td>
+</tr>
+<tr>
+<td align="center">suid/nosuid</td>
+<td align="center">具有/不具有SUID权限，设定文件系统是否具有SUID和SGID的权限，默认是具有</td>
+</tr>
+<tr>
+<td align="center">user/nouser</td>
+<td align="center">允许/不允许普通用户挂载，设定文件系统是否允许普通用户挂载，默认是不允许，只有root可以挂载分区</td>
+</tr>
+<tr>
+<td align="center">usrquota</td>
+<td align="center">写入代表文件系统支持用户磁盘配额，默认不支持</td>
+</tr>
+<tr>
+<td align="center">grpquota</td>
+<td align="center">写入代表文件系统支持组磁盘配额，默认不支持</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8c" alt><br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d88" alt><br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8e" alt></p>
+<h3 id="挂载光盘"><a href="#挂载光盘" class="headerlink" title="挂载光盘"></a><strong>挂载光盘</strong></h3><ul>
+<li>[root@localhost~]#mkdir /mnt/cdrom/  #建立挂载点</li>
+<li>[root@localhost~]#mount -t iso9660 /dev/cdrom/ mnt/cdrom/  #挂载光盘</li>
+<li>[root@localhost~]#mount /dev/sr0 /mnt/cdrom/ #等同于上一条命令<br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d92" alt><br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d91" alt><br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d89" alt><br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8f" alt></li>
+</ul>
+<h3 id="卸载光盘"><a href="#卸载光盘" class="headerlink" title="卸载光盘"></a><strong>卸载光盘</strong></h3><ul>
+<li>[root@localhost~]# umount 设备文件名或挂载点</li>
+<li>[root@localhost~]# umount /mnt/cdrom<br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8d" alt></li>
+</ul>
+<h3 id="挂载U盘"><a href="#挂载U盘" class="headerlink" title="挂载U盘"></a><strong>挂载U盘</strong></h3><ul>
+<li>[root@localhost~]#fdisk -l #查看U盘设备文件名</li>
+<li>[root@localhost~]#monut -t vfat /dev/sdb1 /mnt/usb/</li>
+<li><strong>linux是不支持NTFS文件系统的</strong></li>
+</ul>
+<h2 id="其他常用命令"><a href="#其他常用命令" class="headerlink" title="其他常用命令"></a><strong>其他常用命令</strong></h2><h3 id="w命令-查看登录用户信息"><a href="#w命令-查看登录用户信息" class="headerlink" title="w命令 查看登录用户信息"></a><strong>w命令 查看登录用户信息</strong></h3><p><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d8b" alt></p>
+<ul>
+<li>w 用户名</li>
+<li>命令输出：<ul>
+<li>USER：登录的用户名</li>
+<li>TTY：登录终端</li>
+<li>FROM：从哪个IP地址登录</li>
+<li>LOGIN@：登录时间</li>
+<li>IDLE：用户闲置时间</li>
+<li>JCPU：指的是和该终端连接的所有进程占用的时间。这个时间里并不包括过去的后台作业时间，但却包括当前正在运行的后台作业所占用的时间</li>
+<li>PCPU：是指当前进程所占用的时间</li>
+<li>WHAT：当前正在运行的命令</li>
+</ul>
+</li>
+</ul>
+<h3 id="who-命令-查看登录用户信息"><a href="#who-命令-查看登录用户信息" class="headerlink" title="who 命令 查看登录用户信息"></a><strong>who 命令 查看登录用户信息</strong></h3><p><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d90" alt></p>
+<ul>
+<li>who 用户名</li>
+<li>命令输出<ul>
+<li>用户名</li>
+<li>登录终端</li>
+<li>登录时间（登录来源IP地址）</li>
+</ul>
+</li>
+</ul>
+<h3 id="last-命令-查询当前登录和过去登录的用户信息"><a href="#last-命令-查询当前登录和过去登录的用户信息" class="headerlink" title="last 命令 查询当前登录和过去登录的用户信息"></a><strong>last 命令 查询当前登录和过去登录的用户信息</strong></h3><ul>
+<li>last</li>
+<li>last命令默认是读取/var/log/wtmp文件数据</li>
+<li>命令输出<ul>
+<li>用户名</li>
+<li>登录终端</li>
+<li>登录IP  </li>
+<li>登录时间</li>
+<li>退出时间（在线时间）<br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d86" alt></li>
+</ul>
+</li>
+</ul>
+<h3 id="lastlog-命令-查看所有用户的最后一次登录时间"><a href="#lastlog-命令-查看所有用户的最后一次登录时间" class="headerlink" title="lastlog 命令 查看所有用户的最后一次登录时间"></a><strong>lastlog 命令 查看所有用户的最后一次登录时间</strong></h3><ul>
+<li>lastlog</li>
+<li>lastlog命令默认是读取/var/log/lastlog文件内容</li>
+<li>命令输出：<ul>
+<li>用户名</li>
+<li>登录终端</li>
+<li>登录IP </li>
+<li>最后一次登录时间<br><img src="https://leanote.com/api/file/getImage?fileId=59227adeab64415b23000d87" alt></li>
+</ul>
+</li>
+</ul>
+	
+	</div>
+	
+	<div id="current-post-cover" data-scr="/img/cart_cover.jpg"></div>
+
+	<!-- relate post, comment...-->
+	<div class="investment-container">
+		<div class="investment-header">
+			<div class="investment-title-1">
+				<div class="on">相关文章</div>
+				<!-- <div>评论</div> -->
+				<div>分享</div>
+			</div>
+			<div class="investment-title-2">	            
+				
+	<span>
+		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
+		
+			<a href="/2017/05/21/shell基础/" title="shell基础" rel="prev">
+				&laquo;上一篇
+			</a>
+		
+		
+			<a href="/2017/05/05/三次握手四次挥手/" title="三次握手四次挥手" rel="next">
+				下一篇&raquo;
+			</a>
+			
+	</span>
+
+
+      		
+			</div>	
+		</div>
+		
+		<div class="investment-content">
+			<div class="investment-content-list">
+				
+
+<div class="relate-post">
+	
+		<ul>
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2017/05/21/shell基础/" title="shell基础">
+								shell基础			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								五月 21日, 2017				
+							</p>
+							<p class="relate-post-content">
+								Shell基础什么是Shell
+Shell是一个命令行解释器，它为用户提供了一个向Linux内核发送请求以便运行程序的界面系统级程序，用户可以用Shell来启动，挂起，停止甚至是编写一些程序
+Shell还是一个功能相当强大的编程语言，...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2017/05/21/shell基础/" title="shell基础">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="shell基础"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/09/18/为什么要对特征进行离散化/" title="为什么要对特征进行离散化">
+								为什么要对特征进行离散化			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 18日, 2019				
+							</p>
+							<p class="relate-post-content">
+								
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/09/18/为什么要对特征进行离散化/" title="为什么要对特征进行离散化">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="为什么要对特征进行离散化"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/09/17/SaaS的理解/" title="SaaS的理解">
+								SaaS的理解			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 17日, 2019				
+							</p>
+							<p class="relate-post-content">
+								saas的定义SaaS，是Software-as-a-Service的缩写名称，意思为软件即服务，即通过网络提供软件服务
+# 
+
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/09/17/SaaS的理解/" title="SaaS的理解">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="SaaS的理解"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/09/16/MySQL文章汇总/" title="MySQL文章汇总">
+								MySQL文章汇总			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 16日, 2019				
+							</p>
+							<p class="relate-post-content">
+								
+如何去写一手好SQL https://mp.weixin.qq.com/s/VlWSTqNPY7IDuSSdHql3RQ
+MySQL经典面试问题 https://mp.weixin.qq.com/s/kLDtHRZXsP_2Bsob...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/09/16/MySQL文章汇总/" title="MySQL文章汇总">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="MySQL文章汇总"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/09/16/列表切片/" title="python列表切片">
+								python列表切片			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 16日, 2019				
+							</p>
+							<p class="relate-post-content">
+								版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。本文链接：https://blog.csdn.net/xpresslink/article/details/77727507———...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/09/16/列表切片/" title="python列表切片">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="python列表切片"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/09/16/翻转字符串里的单词/" title="翻转字符串里的单词">
+								翻转字符串里的单词			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								九月 16日, 2019				
+							</p>
+							<p class="relate-post-content">
+								题目描述给定一个字符串，逐个翻转字符串中的每个单词。
+示例 1：
+输入: “the sky is blue”输出: “blue is sky the”示例 2：
+输入: “  hello world!  “输出: “world! he...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/09/16/翻转字符串里的单词/" title="翻转字符串里的单词">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="翻转字符串里的单词"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2018/10/30/数据类型以及底层实现/" title="redis数据类型以及底层实现">
+								redis数据类型以及底层实现			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								十月 30日, 2018				
+							</p>
+							<p class="relate-post-content">
+								
+本篇参考：http://www.redis.cn/topics/data-types-intro.html &amp; https://blog.csdn.net/lq18050010830/article/details/7971...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2018/10/30/数据类型以及底层实现/" title="redis数据类型以及底层实现">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="redis数据类型以及底层实现"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2018/10/27/Bitmap和redisbitmaps/" title="Bitmap和redisbitmaps">
+								Bitmap和redisbitmaps			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								十月 27日, 2018				
+							</p>
+							<p class="relate-post-content">
+								
+原文链接：https://blog.getspool.com/2011/11/29/fast-easy-realtime-metrics-using-redis-bitmaps/
+
+Bitmap（又名：bitset）bitmap或是...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2018/10/27/Bitmap和redisbitmaps/" title="Bitmap和redisbitmaps">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="Bitmap和redisbitmaps"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2017/05/05/三次握手四次挥手/" title="三次握手四次挥手">
+								三次握手四次挥手			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								五月 5日, 2017				
+							</p>
+							<p class="relate-post-content">
+								三次握手与四次挥手
+TCP标志位
+SYN(synchronous 建立联机)
+ACK(acknowledgement 确认)
+PSH(push 传送)
+FIN(finish 结束)
+RST(reset 重置)
+URG(urgent 紧...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2017/05/05/三次握手四次挥手/" title="三次握手四次挥手">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="三次握手四次挥手"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2017/03/07/tcp-udp-md/" title="TCP和UDP">
+								TCP和UDP			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								三月 7日, 2017				
+							</p>
+							<p class="relate-post-content">
+								TCP/IP协议
+TCP/IP协议是一个协议簇，里面包括很多协议，UDP只是其中一个。
+
+TCP/IP协议集包括应用层，传输层，网络层，网络访问层
+
+应用层
+HTTP(超文本传输协议) 万维网的基本协议
+TFTP(简单文件传输协议) ...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2017/03/07/tcp-udp-md/" title="TCP和UDP">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/cart_cover.jpg" alt="TCP和UDP"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+		</ul>
+	
+</div>	
+			</div>
+			<!-- <div class="investment-content-list">
+				<div class="layout-comment">
+
+	
+
+</div>
+			</div> -->
+			<div class="investment-content-list">
+				<div class="layout-share">
+	
+	
+
+		
+			
+			<!-- socialShare share -->
+			<div class="social-share"></div>
+
+<!--  css & js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+			
+		
+		
+	
+</div>
+
+
+			</div>
+		</div>	
+	</div>
+	</div>
+</div>
+
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+
+	<script>
+		var appid = 'dX--',
+            appkey = 'dX--';	  
+        AnnieLeancloud(appid, appkey);         
+	</script>
+    
+
+	
+
+
+<!-- show math formula -->
+
+
+
+	 
+	<script src="/plugin/clipboard/clipboard.js"></script>
+	<script>
+		// Copy code !
+	    function codePreprocessing() {
+	        $("#article-content .highlight").each(function() {
+
+	            $(this).wrap('<div id="post-code"></div>');
+
+	        })
+
+	        $("#article-content #post-code").each(function() {
+
+	            $(this).prepend('<nav class="copy-nav"><span><i class="code-language"></i></span></nav>');
+
+	        })
+
+	        $("#article-content .copy-nav").each(function() {
+	            var temp = $(this).next().attr('class'),
+	                language = ((temp.length > 9) && (temp != null)) ? temp.substr(10) : "none"; //why 9? Need to check language?
+
+	            $(this).find('.code-language').text(language);
+
+	            $(this).append('<span class="copy-btn"><i class="fa fa-copy" aria-hidden="true"></i></span>');
+
+	        });
+	    }
+
+		function codeCopy() {
+		    $('#article-content #post-code').each(function(i) {
+		        var codeCopyId = 'codeCopy-' + i;
+
+		        var codeNode = $(this).find('.code'),
+		            copyButton = $(this).find('.copy-btn');
+
+		        codeNode.attr('id', codeCopyId);
+		        copyButton.attr('data-clipboard-target-id', codeCopyId);
+		    })
+
+		    
+			var clipboard = new ClipboardJS('.copy-btn', {
+					target: function(trigger) {
+						return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+					}
+		      	});
+
+			//pure js
+			function showTooltip(elem, msg) {		   
+				elem.setAttribute('aria-label', msg);
+				elem.setAttribute('class', 'copy-btn copy-status');
+				setTimeout(function() {
+					elem.setAttribute('class', 'copy-btn');
+				}, 2000);
+			}
+
+			clipboard.on('success', function(e) {
+			    e.clearSelection();
+			    console.info('Action:', e.action);		   
+			    console.info('Trigger:', e.trigger);
+			    showTooltip(e.trigger, 'Copied!');
+			    
+			});
+			clipboard.on('error', function(e) {
+			    console.error('Action:', e.action);
+			    console.error('Trigger:', e.trigger);
+			});
+		
+
+		}
+
+		if ($('.layout-post').length) {
+		    codePreprocessing();
+		    codeCopy();
+		} 
+	</script>
+
+
+
+
+
+<link rel="stylesheet" href="/plugin/fancybox/jquery.fancybox.css">
+<script src="/plugin/fancybox/jquery.fancybox.js"></script>
+
+<script type="text/javascript">
+	var titleID = $('.article-title a'),
+		imageID = $('.article-content img'),
+		videoID = $('.article-content video');
+
+	var postTitle = titleID.text() ? titleID.text() : "No post title!";
+
+	imageID.each(function() {
+		var imgPath = $(this).attr('src'),
+			imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
+
+		//给每个匹配的<img>元素打包, 即添加父元素<a>
+		$(this).wrap('<a data-fancybox="gallery" data-caption=" 《 ' + postTitle + ' 》 ' + imgTitle + ' "  href=" ' + imgPath + ' "> </a>');
+	});
+
+	videoID.each(function() {
+		var videoPath = $(this).attr('src');
+
+		//给每个匹配的<img>元素打包, 即添加父元素<a>
+		$(this).wrap('<a data-fancybox href=" ' + videoPath + ' "> </a>');
+	});
+	//TODO：支持html5 video
+
+	if($('#layout-post').length) {
+		$('[data-fancybox="gallery"]').fancybox({
+			loop: true,
+			buttons: [
+				"zoom",
+				"share",
+				"slideShow",
+				"fullScreen",
+				//"download",
+				"thumbs",
+				"close"
+			],
+			protect: false
+		});
+	}
+</script>
+		</main>
+
+		<!--footer-->
+		<footer>
+	<div class="social">
+		<ul>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-github"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-weibo"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-pinterest"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-instagram"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<i class="fa fa-twitter"></i>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<i class="fa fa-rss"></i>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+		
+	<div class="copyright">
+		<p>
+			 
+				&copy;2017 - 2019, content by Wang Yiwen. All Rights Reserved.
+			
+			
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+		
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+
+		<span id="busuanzi_container_page_pv">
+	  		本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+		</span>
+
+	
+
+
+
+
+		</p>
+		<p>
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- set '1' to show motto in all pages! -->
+
+	<script src="/plugin/motto/motto.js"></script>
+	
+	<script type="text/javascript">
+		$(".motto").html( getMingYanContent() );
+	</script>	
+
+
+
+
+	<!--
+	时间：2018-10-3
+	描述：
+		插件名称：hexo-generator-search-zip
+		插件来源: https://github.com/SuperKieran/hexo-generator-search-zip
+		代码参考：https://github.com/SuperKieran/TKL/blob/master/layout/_partial/search.ejs(Include: js & css)	
+-->
+<div class="popup search-popup local-search-popup" >
+	<div class="local-search-container">
+		<span class="popup-btn-close">
+      		ESC
+   		</span>
+		<div class="local-search-header">
+			<div class="input-prompt">				
+			</div>
+			<input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+		</div>
+		<div class="local-search-body">
+			<div id="local-search-output"></div>
+		</div>
+		<div class="local-search-footer">
+			<div class="topN-post">				
+				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title= "热门文章"></div> 
+	</div>
+	
+    <script>
+        var appid = 'dX--',
+            appkey = 'dX--',
+            limitCount = 10;
+        if( $('#topN').length ){
+            AV.initialize(appid, appkey);
+            var Counter = AV.Object.extend("Counter");  
+            topNPost(Counter, limitCount);
+        }
+    </script>
+   
+								
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/plugin/search/ziploader.js"></script>
+<script src="/plugin/search/search.js"></script>
+
+<script type="text/javascript">
+	var search_path = 'search.json',
+		zip_Path = '/search.zip',
+		version_Path = '/searchVersion.txt',
+		input_Trigger = 'auto',
+		top_N = '2';
+
+	themeLocalSearch({
+		search_path, 
+		zip_Path, 
+		version_Path, 
+		input_Trigger, 
+		top_N
+	});
+</script>
+
+
+<!-- love effect -->
+
+	<script src="/plugin/love/love.js"></script>
+
+
+<!-- back to top -->
+
+	
+	<div id="totop">
+  		<a href="javascript:;"  name="TOTOP" class="fa fa-arrow-up" ></a>
+	</div>
+
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	
+	
+	
+	
+ 
+
+<script src="/plugin/vibrant/vibrant.js"></script>
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imgLazyLoader/yall.min.js"></script>
+<script src="/plugin/imgResize/jquery.resizeimagetoparent.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/js/resizediv.js"></script>
+<script src="/js/main.js"></script>
+	</body>	
+</html>
