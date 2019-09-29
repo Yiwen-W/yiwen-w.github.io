@@ -3,26 +3,26 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>为什么要对特征进行离散化 | Yiwen&#39;s Blog</title>
+  <title>位1的个数 | Yiwen&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="机器学习">
+  <meta name="keywords" content="python">
   
   
   
   
-  <meta name="description" content="作者：严林链接：https://www.zhihu.com/question/31989952/answer/54184582来源：知乎著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 在工业界，很少直接将连续值作为逻辑回归模型的特征输入，而是将连续特征离散化为一系列0、1特征交给逻辑回归模型，这样做的优势有以下几点：  离散特征的增加和减少都很容易，易于模型的快速迭代；  稀">
-<meta name="keywords" content="机器学习">
+  <meta name="description" content="问题描述编写一个函数，输入是一个无符号整数，返回其二进制表达式中数字位数为 ‘1’ 的个数（也被称为汉明重量）。 示例 1： 输入：00000000000000000000000000001011输出：3解释：输入的二进制串 00000000000000000000000000001011 中，共有三位为 ‘1’。示例 2： 输入：00000000000000000000000010000000输">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="为什么要对特征进行离散化">
-<meta property="og:url" content="http://yoursite.com/2019/09/18/为什么要对特征进行离散化/index.html">
+<meta property="og:title" content="位1的个数">
+<meta property="og:url" content="http://yoursite.com/2019/09/20/位1的个数/index.html">
 <meta property="og:site_name" content="Yiwen&#39;s Blog">
-<meta property="og:description" content="作者：严林链接：https://www.zhihu.com/question/31989952/answer/54184582来源：知乎著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 在工业界，很少直接将连续值作为逻辑回归模型的特征输入，而是将连续特征离散化为一系列0、1特征交给逻辑回归模型，这样做的优势有以下几点：  离散特征的增加和减少都很容易，易于模型的快速迭代；  稀">
+<meta property="og:description" content="问题描述编写一个函数，输入是一个无符号整数，返回其二进制表达式中数字位数为 ‘1’ 的个数（也被称为汉明重量）。 示例 1： 输入：00000000000000000000000000001011输出：3解释：输入的二进制串 00000000000000000000000000001011 中，共有三位为 ‘1’。示例 2： 输入：00000000000000000000000010000000输">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-09-18T12:09:40.957Z">
+<meta property="og:updated_time" content="2019-09-29T13:21:14.198Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="为什么要对特征进行离散化">
-<meta name="twitter:description" content="作者：严林链接：https://www.zhihu.com/question/31989952/answer/54184582来源：知乎著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 在工业界，很少直接将连续值作为逻辑回归模型的特征输入，而是将连续特征离散化为一系列0、1特征交给逻辑回归模型，这样做的优势有以下几点：  离散特征的增加和减少都很容易，易于模型的快速迭代；  稀">
+<meta name="twitter:title" content="位1的个数">
+<meta name="twitter:description" content="问题描述编写一个函数，输入是一个无符号整数，返回其二进制表达式中数字位数为 ‘1’ 的个数（也被称为汉明重量）。 示例 1： 输入：00000000000000000000000000001011输出：3解释：输入的二进制串 00000000000000000000000000001011 中，共有三位为 ‘1’。示例 2： 输入：00000000000000000000000010000000输">
   
     <link rel="alternate" href="/atom.xml" title="Yiwen&#39;s Blog" type="application/atom+xml">
   
@@ -162,7 +162,7 @@
             
       <div id="content" class="outer">
         
-          <section id="main" style="float:none;"><article id="post-为什么要对特征进行离散化" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+          <section id="main" style="float:none;"><article id="post-位1的个数" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="article-inner">
     
     
@@ -170,7 +170,7 @@
         
   
     <h1 class="thumb" class="article-title" itemprop="name">
-      为什么要对特征进行离散化
+      位1的个数
     </h1>
   
 
@@ -178,12 +178,12 @@
     
     <div class="article-meta">
       
-	<a href="/2019/09/18/为什么要对特征进行离散化/" class="article-date">
-	  <time datetime="2019-09-18T09:54:03.000Z" itemprop="datePublished">2019-09-18</time>
+	<a href="/2019/09/20/位1的个数/" class="article-date">
+	  <time datetime="2019-09-19T21:15:25.000Z" itemprop="datePublished">2019-09-20</time>
 	</a>
 
       
-    <a class="article-category-link" href="/categories/机器学习/">机器学习</a>
+    <a class="article-category-link" href="/categories/leetcode/">leetcode</a>
 
       
 	<a class="article-views">
@@ -197,25 +197,40 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>作者：严林<br>链接：<a href="https://www.zhihu.com/question/31989952/answer/54184582" target="_blank" rel="noopener">https://www.zhihu.com/question/31989952/answer/54184582</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
-<p>在工业界，很少直接将连续值作为逻辑回归模型的特征输入，而是将连续特征离散化为一系列0、1特征交给逻辑回归模型，这样做的优势有以下几点：</p>
-<ol>
-<li><p>离散特征的增加和减少都很容易，易于模型的快速迭代；</p>
+        <h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>编写一个函数，输入是一个无符号整数，返回其二进制表达式中数字位数为 ‘1’ 的个数（也被称为<code>汉明重量</code>）。</p>
+<p>示例 1：</p>
+<p>输入：00000000000000000000000000001011<br>输出：3<br>解释：输入的二进制串 00000000000000000000000000001011 中，共有三位为 ‘1’。<br>示例 2：</p>
+<p>输入：00000000000000000000000010000000<br>输出：1<br>解释：输入的二进制串 00000000000000000000000010000000 中，共有一位为 ‘1’。<br>示例 3：</p>
+<p>输入：11111111111111111111111111111101<br>输出：31<br>解释：输入的二进制串 11111111111111111111111111111101 中，共有 31 位为 ‘1’。</p>
+<p>提示：</p>
+<p>请注意，在某些语言（如 Java）中，没有无符号整数类型。在这种情况下，输入和输出都将被指定为有符号整数类型，并且不应影响您的实现，因为无论整数是有符号的还是无符号的，其内部的二进制表示形式都是相同的。<br>在 Java 中，编译器使用二进制补码记法来表示有符号整数。因此，在上面的 示例 3 中，输入表示有符号整数 -3。</p>
+<p>进阶:<br>如果多次调用这个函数，你将如何优化你的算法？</p>
+<p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/number-of-1-bits" target="_blank" rel="noopener">https://leetcode-cn.com/problems/number-of-1-bits</a><br>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
+<h4 id="解法一："><a href="#解法一：" class="headerlink" title="解法一："></a>解法一：</h4><ul>
+<li>减一与</li>
+<li>20 ms    11.6 MB    </li>
+<li>每次与消除一个1</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">class Solution(object):</span><br><span class="line">    def hammingWeight(self, n):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type n: int</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        res = 0</span><br><span class="line">        while n:</span><br><span class="line">            res += 1</span><br><span class="line">            n &amp;= (n -1)</span><br><span class="line">        return res</span><br></pre></td></tr></table></figure>
+
+<h4 id="解法二："><a href="#解法二：" class="headerlink" title="解法二："></a>解法二：</h4><ul>
+<li>二进制转十进制，除以2看余数</li>
+<li>28 ms    11.7 MB<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">class Solution(object):</span><br><span class="line">    def hammingWeight(self, n):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type n: int</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        res = 0</span><br><span class="line">        while n:</span><br><span class="line">            res += n % 2</span><br><span class="line">            n //= 2</span><br><span class="line">        return res</span><br></pre></td></tr></table></figure>
+
 </li>
-<li><p>稀疏向量内积乘法运算速度快，计算结果方便存储，容易扩展；</p>
+</ul>
+<h4 id="解法三："><a href="#解法三：" class="headerlink" title="解法三："></a>解法三：</h4><ul>
+<li>每次和1相与，向右移位</li>
+<li>32 ms    11.8 MB<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">class Solution(object):</span><br><span class="line">    def hammingWeight(self, n):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type n: int</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        res = 0</span><br><span class="line">        while n:</span><br><span class="line">            res += n &amp; 1</span><br><span class="line">            n &gt;&gt;= 1</span><br><span class="line">        return res</span><br></pre></td></tr></table></figure>
+
 </li>
-<li><p>离散化后的特征对异常数据有很强的鲁棒性：比如一个特征是年龄&gt;30是1，否则0。如果特征没有离散化，一个异常数据“年龄300岁”会给模型造成很大的干扰；</p>
-</li>
-<li><p>逻辑回归属于广义线性模型，表达能力受限；单变量离散化为N个后，每个变量有单独的权重，相当于为模型引入了非线性，能够提升模型表达能力，加大拟合；</p>
-</li>
-<li><p>离散化后可以进行特征交叉，由M+N个变量变为M*N个变量，进一步引入非线性，提升表达能力；</p>
-</li>
-<li><p>特征离散化后，模型会更稳定，比如如果对用户年龄离散化，20-30作为一个区间，不会因为一个用户年龄长了一岁就变成一个完全不同的人。当然处于区间相邻处的样本会刚好相反，所以怎么划分区间是门学问；</p>
-</li>
-<li><p>特征离散化以后，起到了简化了逻辑回归模型的作用，降低了模型过拟合的风险。</p>
-</li>
-</ol>
-<p>李沐曾经说过：模型是使用离散特征还是连续特征，其实是一个“海量离散特征+简单模型” 同 “少量连续特征+复杂模型”的权衡。既可以离散化用线性模型，也可以用连续特征加深度学习。就看是喜欢折腾特征还是折腾模型了。通常来说，前者容易，而且可以n个人一起并行做，有成功经验；后者目前看很赞，能走多远还须拭目以待。编辑于 2015-11-05予人玫瑰，手有余香赞赏</p>
+</ul>
+<h4 id="解法四："><a href="#解法四：" class="headerlink" title="解法四："></a>解法四：</h4><ul>
+<li>使用python类库bin</li>
+<li>20 ms 11.8 MB </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">class Solution(object):</span><br><span class="line">    def hammingWeight(self, n):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type n: int</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        return bin(n).count(&apos;1&apos;)</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
@@ -250,7 +265,7 @@
       
       
         
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/机器学习/">机器学习</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
 
       
 
@@ -260,19 +275,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2019/09/20/位1的个数/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/09/20/解释-编译-先解释后编译/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          位1的个数
+          解释?编译?先解释后编译
         
       </div>
     </a>
   
   
-    <a href="/2019/09/16/MySQL文章汇总/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/09/18/为什么要对特征进行离散化/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">MySQL文章汇总</div>
+      <div class="article-nav-title">为什么要对特征进行离散化</div>
     </a>
   
 </nav>
@@ -286,7 +301,7 @@
     <div id="toc" class="toc-article">
     <strong class="toc-title">Contents</strong>
     
-        <ol class="nav">None</ol>
+        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#问题描述"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解法一："><span class="nav-number">2.</span> <span class="nav-text">解法一：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解法二："><span class="nav-number">3.</span> <span class="nav-text">解法二：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解法三："><span class="nav-number">4.</span> <span class="nav-text">解法三：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解法四："><span class="nav-number">5.</span> <span class="nav-text">解法四：</span></a></li></ol>
     
     </div>
   </aside>
